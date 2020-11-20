@@ -1,5 +1,7 @@
 ﻿# Terracreds Chocolatey Package
 
+[![Build status](https://ci.appveyor.com/api/projects/status/tsr0atdfed45b98m/branch/master?svg=true)](https://ci.appveyor.com/project/ripclawffb/chocolatey-terracreds/branch/master)
+
 This repository contains the chocolatey install scripts and nuspec file to install terracreds on Windows.
 
 ## Terracreds
