@@ -7,7 +7,7 @@
     <packageSourceUrl>https://github.com/ripclawffb/chocolatey-terracreds</packageSourceUrl>
     <owners>Asif Shaikh</owners>
     <title>Terracreds (Install)</title>
-    <authors>Tony</authors>
+    <authors>Tony Owens</authors>
     <projectUrl>https://github.com/tonedefdev/terracreds/releases</projectUrl>
     <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/terracreds.png</iconUrl>-->
     <!-- <copyright>Year Software Vendor</copyright> -->
@@ -16,7 +16,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
     <projectSourceUrl>https://github.com/tonedefdev/terracreds</projectSourceUrl>
     <docsUrl>https://github.com/tonedefdev/terracreds/blob/main/README.md</docsUrl>
-    <tags>terracreds admin terraform credentials manager</tags>
+    <tags>terracreds admin terraform credentials manager api key remote backend</tags>
     <summary>A credential helper for Terraform Cloud/Enterprise that allows secure storage of your API token.</summary>
     <description>A credential helper for Terraform Cloud/Enterprise that allows secure storage of your API token within the operating system's vault instead of in a plain text configuration file. Storing secrets in plain text can pose major security threats, and Terraform doesn't come pre-packaged with a credential helper, so we decided to create one and to share it with the greater Terraform/DevOps community to help enable stronger security practices.</description>
   </metadata>
