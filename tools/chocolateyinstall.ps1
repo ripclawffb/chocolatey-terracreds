@@ -13,5 +13,3 @@ $packageArgs = @{
 }
 
 Install-ChocolateyZipPackage @packageArgs
-
-Install-ChocolateyPath $toolsDir -PathType 'Machine'
