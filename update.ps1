@@ -5,9 +5,8 @@ $releases = 'https://github.com/tonedefdev/terracreds/releases/'
 function global:au_SearchReplace {
    @{
         ".\tools\chocolateyInstall.ps1" = @{
-            "(?i)(^[$]packageName\s*=\s*)('.*')"  = "`$1'$($Latest.PackageName)'"
             "(?i)(^[$]url\s*=\s*)('.*')"          = "`$1'$($Latest.URL)'"
-            "(checksum\s*=\s*)('.*')"             = "`$1'$($Latest.Checksum)'"
+            "(checksum\s*=\s*)('.*')"             = "`$1'$($Latest.Checksum64)'"
         }
 
         "$($Latest.PackageName).nuspec" = @{
