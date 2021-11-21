@@ -3,7 +3,11 @@ on: [push]
 jobs:
   test:
     runs-on: windows-latest
+    env:
+      PACKAGE_NAME: terracreds
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - run: choco --version
+      - run: choco pack
+      - run: choco install $Env:PACKAGE_NAME --source="'.;https://chocolatey.org/api/v2'" -dvy
+      - run: choco uninstall -dvy $Env:PACKAGE_NAME
