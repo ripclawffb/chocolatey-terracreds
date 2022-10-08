@@ -1,14 +1,14 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/tonedefdev/terracreds/releases/download/v1.1.0/terracreds_1.1.0_windows_amd64.zip'
+$url        = 'https://github.com/tonedefdev/terracreds/releases/download/v2.1.2/terracreds_2.1.2_windows_amd64.zip'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   url           = $url
 
-  checksum      = '7649bffd18fef3aa007143cf294cace8e0c89a42a0b74ccc79349a7c8d0f5da9'
+  checksum      = 'fbba036b27c484e3b23d16a5804fc1e8ac6fe3a2664effa86ca6e335096bddd4'
   checksumType  = 'sha256'
 }
 
